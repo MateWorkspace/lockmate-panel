@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-10-12",
+    "macrostructure": "app-shell (numbered side-rail) + split-diptych login",
+    "theme": "custom",
+    "theme_axes": "light-warm / condensed-geometric / warm(60-70)",
+    "vibe": "professional, soft, fun",
+    "enrichment": "none (typography + CSS mark)",
+    "brief": "Lockmate auth-management demo: login, dashboard, users, access-control"
+  }
+]

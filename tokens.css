@@ -1,0 +1,94 @@
+/*
+ * Lockmate tokens — portable export of the design system.
+ * Authoritative source: src/app/globals.css (Tailwind v4 @theme).
+ * Brand ramp from public/*.svg: #ffeac5 · #fedbb5 · #c49a6c · #603f26 · ink #231f20
+ */
+:root {
+  color-scheme: light dark;
+
+  --color-background: oklch(98.5% 0.011 78);
+  --color-surface: oklch(99.4% 0.006 82);
+  --color-surface-2: oklch(95.6% 0.028 80);
+  --color-highlight: oklch(91.1% 0.063 69.2);
+
+  --color-primary: oklch(40% 0.06 57.1);
+  --color-primary-deep: oklch(32% 0.052 55);
+  --color-accent: oklch(71.5% 0.079 68.5);
+  --color-accent-deep: oklch(58% 0.078 66);
+
+  --color-foreground: oklch(24.4% 0.008 50);
+  --color-muted: oklch(50% 0.022 62);
+  --color-subtle: oklch(64% 0.02 66);
+
+  --color-border: oklch(88.5% 0.024 72);
+  --color-border-strong: oklch(79% 0.03 70);
+  --color-focus: oklch(55% 0.13 60);
+
+  --color-success: oklch(58% 0.12 150);
+  --color-warning: oklch(70% 0.14 72);
+  --color-critical: oklch(57% 0.16 27);
+  --color-info: oklch(58% 0.1 240);
+
+  --font-display: "Coolvetica", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+
+  --text-xs: 0.64rem;
+  --text-sm: 0.8rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.9531rem;
+  --text-2xl: 2.4414rem;
+  --text-3xl: 3.0518rem;
+  --text-display: clamp(2.5rem, 4vw + 1.25rem, 4.25rem);
+
+  --radius-input: 0.75rem;
+  --radius-card: 1.25rem;
+  --radius-lg: 1rem;
+  --radius-pill: 999px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-press: cubic-bezier(0.2, 0.7, 0.3, 1);
+
+  --dur-fast: 140ms;
+  --dur: 220ms;
+  --dur-slow: 420ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: oklch(20.5% 0.012 58);
+    --color-surface: oklch(24.5% 0.014 58);
+    --color-surface-2: oklch(29% 0.017 60);
+    --color-highlight: oklch(40% 0.05 64);
+
+    --color-primary: oklch(80% 0.075 68);
+    --color-primary-deep: oklch(62% 0.08 63);
+    --color-accent: oklch(76% 0.078 70);
+    --color-accent-deep: oklch(64% 0.08 66);
+
+    --color-foreground: oklch(94% 0.012 76);
+    --color-muted: oklch(74% 0.02 68);
+    --color-subtle: oklch(60% 0.02 66);
+
+    --color-border: oklch(33% 0.016 62);
+    --color-border-strong: oklch(42% 0.02 62);
+    --color-focus: oklch(74% 0.12 66);
+
+    --color-success: oklch(72% 0.13 150);
+    --color-warning: oklch(80% 0.14 78);
+    --color-critical: oklch(72% 0.15 30);
+    --color-info: oklch(74% 0.1 240);
+  }
+}
