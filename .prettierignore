@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+
+# next.js
+.next
+out
+
+# production
+build
+
+# testing
+coverage
+
+# lockfiles
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# next.js generated
+next-env.d.ts
+
+# opencode skills (third-party content)
+.opencode
